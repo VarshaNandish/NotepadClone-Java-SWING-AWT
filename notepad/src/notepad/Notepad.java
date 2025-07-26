@@ -110,7 +110,7 @@ public class Notepad extends JFrame implements ActionListener {
                 File file = chooser.getSelectedFile();
 				
                 try{
-                    System.out.println("HEki");
+                    System.out.println("File opened successfully");
                     FileReader reader = new FileReader(file);
                     BufferedReader br = new BufferedReader(reader);
                     area.read( br, null );
